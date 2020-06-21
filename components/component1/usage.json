@@ -1,0 +1,24 @@
+{
+  "collectionName": "kanji_usage",
+  "info": {
+    "name": "Usage",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "reading": {
+      "type": "string"
+    },
+    "meaning": {
+      "type": "string"
+    },
+    "example": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component2.example"
+    }
+  }
+}

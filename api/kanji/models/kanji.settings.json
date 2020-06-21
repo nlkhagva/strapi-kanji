@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kanji",
+  "info": {
+    "name": "Kanji"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "scratch": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "reading": {
+      "type": "string"
+    },
+    "meaning": {
+      "type": "string"
+    },
+    "Usage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component1.usage"
+    }
+  }
+}

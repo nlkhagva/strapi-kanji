@@ -1,0 +1,16 @@
+{
+  "collectionName": "usage_example",
+  "info": {
+    "name": "example",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "japan": {
+      "type": "string"
+    },
+    "mongolia": {
+      "type": "string"
+    }
+  }
+}
