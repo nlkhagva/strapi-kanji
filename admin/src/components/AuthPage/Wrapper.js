@@ -32,7 +32,7 @@ const Wrapper = styled.div`
     }
     > img {
       margin-top: 1px;
-      height: 40px;
+      height: 60px;
     }
   }
   .headerDescription {
