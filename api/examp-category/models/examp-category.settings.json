@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "examp_categories",
+  "info": {
+    "name": "Exam Category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "parent": {
+      "model": "examp-category",
+      "via": "children"
+    },
+    "children": {
+      "collection": "examp-category",
+      "via": "parent"
+    }
+  }
+}

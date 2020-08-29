@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kanji-categories",
+      "handler": "kanji-category.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kanji-categories/count",
+      "handler": "kanji-category.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kanji-categories/:id",
+      "handler": "kanji-category.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kanji-categories",
+      "handler": "kanji-category.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kanji-categories/:id",
+      "handler": "kanji-category.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kanji-categories/:id",
+      "handler": "kanji-category.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

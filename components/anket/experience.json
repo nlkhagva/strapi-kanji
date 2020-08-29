@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_anket_experiences",
+  "info": {
+    "name": "experience",
+    "icon": "network-wired"
+  },
+  "options": {},
+  "attributes": {
+    "start": {
+      "type": "date"
+    },
+    "end": {
+      "type": "date"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

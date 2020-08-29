@@ -1,0 +1,134 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ankets",
+  "info": {
+    "name": "anket"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "date"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "male",
+        "female"
+      ]
+    },
+    "japanLevel": {
+      "type": "enumeration",
+      "enum": [
+        "N1",
+        "N2",
+        "N3",
+        "N4",
+        "N5",
+        "NONE"
+      ]
+    },
+    "englishLevel": {
+      "type": "integer"
+    },
+    "address": {
+      "type": "richtext"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "relationPeople": {
+      "type": "component",
+      "repeatable": false,
+      "component": "anket.relation-people"
+    },
+    "education": {
+      "type": "component",
+      "repeatable": true,
+      "component": "anket.education"
+    },
+    "experience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "anket.experience"
+    },
+    "award": {
+      "type": "component",
+      "repeatable": true,
+      "component": "anket.awards"
+    },
+    "visitJapan": {
+      "type": "component",
+      "repeatable": true,
+      "component": "anket.visit-japan"
+    },
+    "personal": {
+      "type": "richtext"
+    },
+    "familyCount": {
+      "type": "integer"
+    },
+    "marrage": {
+      "type": "boolean"
+    },
+    "hasChildren": {
+      "type": "boolean"
+    },
+    "reason": {
+      "type": "richtext"
+    },
+    "attachedFiles": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "exams": {
+      "collection": "exam",
+      "via": "ankets"
+    },
+    "PassedExam": {
+      "type": "component",
+      "repeatable": true,
+      "component": "anket.passed-exam"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "familyInfo": {
+      "type": "string"
+    },
+    "firstnameKana": {
+      "type": "string"
+    },
+    "lastnameKana": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "anket.links"
+    }
+  }
+}

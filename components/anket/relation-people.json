@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_anket_relation_people",
+  "info": {
+    "name": "relationPeople",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "relation": {
+      "type": "string"
+    },
+    "address": {
+      "type": "richtext"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "mobile2": {
+      "type": "string"
+    }
+  }
+}

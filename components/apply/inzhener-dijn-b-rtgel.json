@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_apply_engineer",
+  "info": {
+    "name": "engineer",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "graduatedUniversity": {
+      "type": "string"
+    },
+    "diplomGolch": {
+      "type": "decimal"
+    },
+    "experience": {
+      "type": "string"
+    },
+    "visitJapane": {
+      "type": "boolean"
+    },
+    "attachedFileMN": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

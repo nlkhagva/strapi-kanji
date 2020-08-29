@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_anket_visit_japans",
+  "info": {
+    "name": "visitJapan",
+    "icon": "train"
+  },
+  "options": {},
+  "attributes": {
+    "viz": {
+      "type": "string"
+    },
+    "visitDate": {
+      "type": "date"
+    },
+    "outDate": {
+      "type": "date"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

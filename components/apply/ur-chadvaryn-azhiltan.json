@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_apply_skill",
+  "info": {
+    "name": "Skill",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "urchadvar_categories": {
+      "collection": "urchadvar-category"
+    },
+    "liveLocation": {
+      "type": "enumeration",
+      "enum": [
+        "Japan",
+        "Mongolia",
+        "Other"
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_anket_educations",
+  "info": {
+    "name": "education",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "start": {
+      "type": "date"
+    },
+    "end": {
+      "type": "date"
+    },
+    "degree": {
+      "type": "enumeration",
+      "enum": [
+        "Dund",
+        "BurenDund",
+        "University"
+      ]
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

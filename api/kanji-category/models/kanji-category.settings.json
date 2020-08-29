@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kanji_categories",
+  "info": {
+    "name": "Kanji category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "sort_order": {
+      "type": "integer"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "kanjis": {
+      "via": "kanji_categories",
+      "collection": "kanji"
+    }
+  }
+}

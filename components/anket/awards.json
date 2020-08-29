@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_anket_awards",
+  "info": {
+    "name": "awards",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

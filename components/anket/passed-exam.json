@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_anket_passed_exams",
+  "info": {
+    "name": "PassedExam",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "exam_category": {
+      "model": "examp-category"
+    },
+    "score": {
+      "type": "decimal"
+    },
+    "passed": {
+      "type": "boolean"
+    },
+    "exampAttachment": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

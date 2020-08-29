@@ -33,6 +33,11 @@
       "type": "component",
       "repeatable": true,
       "component": "component1.usage"
+    },
+    "kanji_categories": {
+      "collection": "kanji-category",
+      "via": "kanjis",
+      "dominant": true
     }
   }
 }

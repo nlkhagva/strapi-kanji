@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_anket_links",
+  "info": {
+    "name": "links",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
